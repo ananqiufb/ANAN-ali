@@ -1,0 +1,25 @@
+﻿Github RAW 加速服务
+https://www.7ed.net/#/raw-cdn
+/*
+将原网址：raw.githubusercontent.com 加个 S，变成：raw.githubusercontentS.com 即可，例如：
+https://raw.githubusercontents.com/imagehosted/images/master/2019/06/20190612115457.png */
+
+https://raw.githubusercontents.com/ 用户/仓库/main(分支)/子目录/txt.txt
+
+https://ghproxy.com/ 代理
+https://ghproxy.com/https://raw.githubusercontent.com/liu673cn/box/main/dc.json
+
+https://raw.gh.fakev.cn/liu673cn/box/main/m.json
+
+https://raw.fastgit.org/
+
+https://raw-gh.gcdn.mirr.one/
+
+https://cdn.staticaly.com/gh/liu673cn/box/main/dc.json
+
+https://cdn.jsdelivr.net/gh/liu673cn/box@main/dc.json
+
+https://purge.jsdelivr.net/gh/liu673cn/box@main/m.json
+
+
+https://raw.iqiq.io/dxawi/0/main/0.json

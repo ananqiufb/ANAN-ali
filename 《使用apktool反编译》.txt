@@ -1,0 +1,30 @@
+d2j-dex2jar.bat classes.dex
+
+java -jar apktool.jar d -f a.jar  -o alips
+apktool d -r ali00.jar -o ali00
+
+重新打包生成未签名的包
+
+java -jar apktool.jar b alips -o ali.jar     (打包生成jar的名称)
+apktool b ali00 -o alixb77.jar
+
+-----------------------
+
+使用apktool，将Jar转换成smali文件，修改smali代码  apktool d  
+
+apktool将smali打包成dex   apktool b .
+
+将dex转换成为jar包
+使用的指令
+d2j-dex2jar.sh classes.dex
+
+阿里云
+refresh_token:9f19a97d4c784bdfa83fb32f0b2d6c22
+巧计：ad3c78559a494bde814f1a6c8c40db51 /  27b06d5221a24199b15f2e573d847430
+c679866eae6848dd966404ce44ba9042
+
+{"key":"push_agent","name":"推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"9f19a97d4c784bdfa83fb32f0b2d6c22"}
+{"key":"push_agent","name":"推送","type":3,"api":"csp_Ali","searchable":0,"quickSearch":0,"filterable":0}
+
+JSON.parse(localStorage.token).refresh_token
+                
